@@ -10,8 +10,9 @@ Mysql = mysql
 app.config['SECRET_KEY'] = 'e97cd713cdda1b9b4b38804c0785716c016eb2cf0923f4'
 
 mydb = mysql.connector.connect(
-    host = 'localhost',
-    user = 'root',
+    host = 'db-mysql-nyc1-97096-do-user-14262463-0.b.db.ondigitalocean.com',
+    port = '25060',
+    user = 'ak47',
     password = 'P@$$w0rd',
     database = 'senac-ead'
 )
