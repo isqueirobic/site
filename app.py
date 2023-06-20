@@ -1,7 +1,7 @@
+import mysql.connector
 from flask import Flask, request, render_template, url_for, flash, redirect, session
 from forms import formlogin
 from forms import formNovoUsuario
-import mysql.connector
 from hashlib import sha256
 
 app = Flask(__name__)
