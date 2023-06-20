@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="col-12 mt-3">
+    {{FormLogin.csrf_token}}
+    <p>email {{FormLogin.email}}</p>
+    <p>Senha {{FormLogin.senha}}</p>
+    <p>{{FormLogin.submit}}</p>
+</div>
+{% endblock %}

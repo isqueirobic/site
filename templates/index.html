@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="col-12 mt-3">
+    <div class="row">
+        <div class="px-4 py-5">
+            <h2 class="pb-1 border-bottom">Cursos em destaques</h2>
+            <div class="row g-3 py-5 row-cols-1 row-cols-lg-3">
+                <div class="col">
+                    <div class="mb-3">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQM1duJejWFh_Kg53AmJxthphMFgtsGEUO_A&usqp=CAU" height="100" width="100">
+                    </div>
+                    <h3 class="fs-2">Logica de programação</h3>
+                    <p>A amizade consegue ser tão complexa.
+                        Deixa uns desanimados, outros bem felizes.
+                        É a alimentação dos fracos
+                        É o reino dos fortes.
+                        
+                        Faz-nos cometer erros
+                        Os fracos deixam se ir abaixo
+                        Os fortes erguem sempre a cabeça
+                        Os assim assumem-nos.
+                        
+                        Sem pensar conquistamos
+                        o mundo geral
+                        e construímos o nosso pequeno lugar,
+                        deixando brilhar cada estrelinha.
+                        
+                        Estrelinhas.
+                        Doces, sensíveis, frias, ternurentas.
+                        Mas sempre presentes em qualquer parte.
+                        Os donos da amizade.</p>
+                        <a href="#" class="incon-link">saiba mais (essse botão não funciona)</a>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <img src="data:image/jpeg;base64,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" height="100" width="100">
+                </div>
+                <h3 class="fs-2"> Data based</h3>
+                <p>Há um grande desejo em mim de sempre melhorar.
+                    Melhorar. É o que me faz feliz.
+                    E sempre que sinto que estou aprendendo menos, que a curva de aprendizado está nivelando, ou seja o que for, então não fico muito contente.
+                    E isso se aplica não só profissionalmente, como piloto, mas como pessoa.</p>
+                    <a href="#" class="incon-link">saiba mais (essse botão não funciona)</a>
+            </div>
+            <div class="col">
+                <div class="mb-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtDd_UsKCMUMHXSWIqPqTOIJVZTVqo-7MaDw&usqp=CAU" height="100" width="100">
+                </div>
+                <h3 class="fs-2">Custo baixo</h3>
+                <p>Faça uma lista de grandes amigos,
+                    quem você mais via há dez anos atrás...
+                    Quantos você ainda vê todo dia ?
+                    Quantos você já não encontra mais?
+                    Faça uma lista dos sonhos que tinha...
+                    Quantos você desistiu de sonhar?
+                    Quantos amores jurados pra sempre...
+                    Quantos você conseguiu preservar?
+                    Onde você ainda se reconhece,
+                    na foto passada ou no espelho de agora?
+                    Hoje é do jeito que achou que seria?
+                    Quantos amigos você jogou fora...
+                    Quantos mistérios que você sondava,
+                    quantos você conseguiu entender?
+                    Quantos defeitos sanados com o tempo,
+                    era o melhor que havia em você?
+                    Quantas mentiras você condenava,
+                    quantas você teve que cometer ?
+                    Quantas canções que você não cantava,
+                    hoje assobia pra sobreviver ...
+                    Quantos segredos que você guardava,
+                    hoje são bobos ninguém quer saber ...
+                    Quantas pessoas que você amava,
+                    hoje acredita que amam você?</p>
+                    <a href="#" class="incon-link">saiba mais (essse botão não funciona)</a>
+            </div>
+        </div>
+        <h3 class="border-bottom">Comentarios</h3>
+        <div class="row g-3 py-5 row-cols-1 row-cols-lg-3">
+            <div class="col">
+                
+            </div>
+            <div class="col">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHYAuwMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABQYCAwQBB//EADEQAQACAQIFAQYEBwEAAAAAAAABAgMEEQUSITFRcRMyQUJSYSIjkdE0coGCobHBFP/EABgBAQEBAQEAAAAAAAAAAAAAAAACAwEE/8QAHBEBAQEBAAMBAQAAAAAAAAAAAAECMREhQQMS/9oADAMBAAIRAxEAPwD6IA9LIAAAAAABlSl8l4rjrNrT8IgGJvHlLafhG8ROov8A21/dIYtHp8XuYa7+ZjeWd3FfyrlMeS/uUtb0jdjas1ma2iYmO8StOSJ9nMUnltMTET4lXNVgzYMs+33mZ683eLO515Lnw0ALSAAAAAAAAAAAAAAAAeixcP0ldNhjeN8k+9P/ABBaaN9Tiifrj/a0M/0vxWQBksa8+GmfHNMlYmstgCsarT202e2O3WO8T5hpSnHo2vhn7Si2+b5jO9AFOAAAAAAAAAAAAAAN2j/i8P8APCzq3oMd8mrx8kTMVtFp+0LJDL9OryAM1AAIfj/fD/VFR2S/HaWmuK+08td958IhtjiNdAFpAAAAAAAAAAAAAAd/BZ21cx5pKdjsq+nzW0+emWsbzWe3mForMTWJjrE9YY7nteePQEKAAcHGp20W31XiEDCS41nm+WuCO1Osz90a2xPSNdAFpAAAAAAAAAAAAAAJ7dVi4ZnjNpKdfxVjltHhXUhwSJ/9VtpnbkneEbnpWep0BisY3tFK2tadoiN5lk4uMTtob9dusR/knsQefJObPkyT81t49Pg1g9EZADoAAAAAAAAAAAAAAJzhOjnDT21rbzkr227QjNNos2otXakxjmetp6dFjpEVrFY7RG0M934rMegMljn1unnU6e2OLcsz13dDwFUmJi0xPeJ2eJDiGhy1z3y4sc2x269Ovr0cHadp7/d6JfMZ2PAHXAAAAAAAAAAAjeZ2iJnfw6tFoMmq/FvyY4+afj6JvTaPDpo/Lp+L42nvKLuR2TyiNNwvPl65Py6/fv8AolNPoNPg6xTmt9Vurr2Gd1auR5s9BLoAAAA0ajR4NRH5uON/MdJbwELqOEXrvOC/PH026Sj8mO+K3LkpNZ8StTDLix5a8uSkWjxMLm79TcqqJTWcK5KzfSzMxHyfsi2ssqbPAA64AAAAMsVfaZqUnta0R+oOXgtNKRjrFaxtWI2iGQPO1AAAAAAAAAAAAeSgOL4Yxaveu2145vQF46nXHEA2QAA//9k=" width="50" height="50">     
+            </div>
+            <div class="col">
+                <div class="mb-8">
+                    <p>wqpd,q,dwm fpowfmwf</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
